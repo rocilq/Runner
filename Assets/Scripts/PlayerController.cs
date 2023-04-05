@@ -33,11 +33,10 @@ public class PlayerController : MonoBehaviour
 
         if (controller.isGrounded)
         {
-            if (isJumping)
-            {
-                isJumping = false; // set isJumping to false when player lands on the ground
-                anim.SetBool("isJumping", false);
-            }
+
+            isJumping = false; // set isJumping to false when player lands on the ground
+            anim.SetBool("isJumping", false);
+
 
             if (Input.GetKeyDown(KeyCode.UpArrow))
             {
