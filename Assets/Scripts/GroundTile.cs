@@ -13,7 +13,7 @@ public class GroundTile : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         groundSpawner.SpawnTile();
-        Destroy(gameObject, 2);
+        Destroy(gameObject, 3);
     }
 
     // Update is called once per frame

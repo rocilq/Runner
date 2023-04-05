@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
         if (controller.isGrounded)
         {
-            direction.y = -1;
+            //direction.y = -1;
             if (Input.GetKeyDown(KeyCode.UpArrow))
             {
                 Jump();
