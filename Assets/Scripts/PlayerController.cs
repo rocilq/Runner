@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
     private CharacterController controller;
     private Vector3 direction;
     public float forwardSpeed;
@@ -14,11 +13,16 @@ public class PlayerController : MonoBehaviour
 
     public float jumpForce;
 
-    public float Gravity = - 20;
+    public float Gravity = -20;
+
+    private Animator anim; // Animator component
+
+    public bool isJumping = false; // boolean to track if player is jumping
 
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
     }
 
@@ -27,11 +31,14 @@ public class PlayerController : MonoBehaviour
     {
         direction.z = forwardSpeed;
 
-        
-
         if (controller.isGrounded)
         {
-            //direction.y = -1;
+            if (isJumping)
+            {
+                isJumping = false; // set isJumping to false when player lands on the ground
+                anim.SetBool("isJumping", false);
+            }
+
             if (Input.GetKeyDown(KeyCode.UpArrow))
             {
                 Jump();
@@ -43,11 +50,10 @@ public class PlayerController : MonoBehaviour
         }
 
         // Gather the inputs on which lane we should be
-
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             desiredLane++;
-            if(desiredLane == 3)
+            if (desiredLane == 3)
             {
                 desiredLane = 2;
             }
@@ -62,19 +68,18 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-
         Vector3 targetPosition = transform.position.z * transform.forward + transform.position.y * transform.up;
 
-        if(desiredLane == 0)
+        if (desiredLane == 0)
         {
             targetPosition += Vector3.left * laneDistance;
-        }else if(desiredLane == 2)
+        }
+        else if (desiredLane == 2)
         {
             targetPosition += Vector3.right * laneDistance;
         }
 
         transform.position = Vector3.Lerp(transform.position, targetPosition, 80 * Time.fixedDeltaTime);
-
     }
 
     private void FixedUpdate()
@@ -85,5 +90,7 @@ public class PlayerController : MonoBehaviour
     private void Jump()
     {
         direction.y = jumpForce;
+        isJumping = true; // set isJumping to true when player jumps
+        anim.SetBool("isJumping", true); // set Animator boolean parameter "isJumping" to true
     }
 }
