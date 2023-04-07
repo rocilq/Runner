@@ -1,95 +1,76 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    private Animator animator;
     private CharacterController controller;
-    private Vector3 direction;
-    public float forwardSpeed;
 
-    private int desiredLane = 1;
-    public float laneDistance = 4; // the distance between two lanes
+    public float moveSpeed = 10f;
+    public float laneDistance = 2.5f;
 
-    public float jumpForce;
-
-    public float Gravity = -20;
-
-    private Animator anim; // Animator component
-
-    public bool isJumping = false; // boolean to track if player is jumping
+    private int currentLane = 1;
+    private Vector3 targetPosition;
 
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
+
+        // Start in the middle lane
+        targetPosition = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        direction.z = forwardSpeed;
-
-        if (controller.isGrounded)
-        {
-
-            isJumping = false; // set isJumping to false when player lands on the ground
-            anim.SetBool("isJumping", false);
-
-
-            if (Input.GetKeyDown(KeyCode.UpArrow))
-            {
-                Jump();
-            }
-        }
-        else
-        {
-            direction.y += Gravity * Time.deltaTime;
-        }
+        animator.SetBool("isJumping", false);
 
         // Gather the inputs on which lane we should be
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            desiredLane++;
-            if (desiredLane == 3)
+            currentLane++;
+            if (currentLane > 2)
             {
-                desiredLane = 2;
+                currentLane = 2;
             }
         }
 
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            desiredLane--;
-            if (desiredLane == -1)
+            currentLane--;
+            if (currentLane < 0)
             {
-                desiredLane = 0;
+                currentLane = 0;
             }
         }
 
-        Vector3 targetPosition = transform.position.z * transform.forward + transform.position.y * transform.up;
+        // Calculate the target position based on the desired lane
+        float targetX = (currentLane - 1) * laneDistance;
+        targetPosition = new Vector3(targetX, transform.position.y, transform.position.z);
 
-        if (desiredLane == 0)
+        // Move the player to the target position
+        controller.Move((targetPosition - transform.position + Vector3.forward * moveSpeed * Time.deltaTime) * moveSpeed * Time.deltaTime);
+
+        // Update the Animator parameters based on the player's current state
+        float currentSpeed = (transform.position - targetPosition).magnitude / Time.deltaTime;
+        //animator.SetFloat("Speed", currentSpeed);
+
+        // Jumping
+        if (controller.isGrounded)
         {
-            targetPosition += Vector3.left * laneDistance;
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                //animator.SetTrigger("Jump");
+                //animator.SetBool("isJumping", true);
+                controller.Move(Vector3.up * 5f);
+            }
         }
-        else if (desiredLane == 2)
+
+        // Falling
+        if (!controller.isGrounded)
         {
-            targetPosition += Vector3.right * laneDistance;
+            controller.Move(Vector3.down * Time.deltaTime * 10);
         }
-
-        transform.position = Vector3.Lerp(transform.position, targetPosition, 80 * Time.fixedDeltaTime);
-    }
-
-    private void FixedUpdate()
-    {
-        controller.Move(direction * Time.fixedDeltaTime);
-    }
-
-    private void Jump()
-    {
-        direction.y = jumpForce;
-        isJumping = true; // set isJumping to true when player jumps
-        anim.SetBool("isJumping", true); // set Animator boolean parameter "isJumping" to true
     }
 }
