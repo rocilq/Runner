@@ -55,6 +55,9 @@ public class Controller : MonoBehaviour
             anim.SetBool("rightRun", false);
             anim.SetBool("leftRun", false);
         }
+
+
+
     }
 }
 
