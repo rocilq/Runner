@@ -8,21 +8,26 @@ public class Jump : MonoBehaviour
     public float jumpForce = 5f;
     public Animator animator;
 
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             GetComponent<Rigidbody>().AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            animator.SetBool("isJumping", true);
+            animator.SetTrigger("jumpTrigger");
         }
     }
 
-    void OnCollisionEnter(Collision other)
+    /*void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == "Ground")
+        if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
             animator.SetBool("isJumping", false);
         }
-    }
+    }*/
 }
