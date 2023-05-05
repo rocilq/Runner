@@ -10,6 +10,13 @@ public class PlayerMovement : MonoBehaviour
 
     private int currentLane = 0;
 
+    public Animator animator;
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     void Update()
     {
         // Move the player forward
@@ -20,6 +27,12 @@ public class PlayerMovement : MonoBehaviour
         {
             currentLane--;
             transform.position = new Vector3(currentLane * laneDistance, transform.position.y, transform.position.z);
+        }
+
+        // Slide
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            animator.SetTrigger("slideTrigger");
         }
 
         // Move to the right lane if "right" arrow key is pressed

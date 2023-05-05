@@ -7,13 +7,20 @@ public class TileManager : MonoBehaviour
 
     public GameObject[] tilePrefabs;
     public float zSpawn = 0;
-    public float tileLength = 6;
+    public float tileLength = 12;
     public int numberOfTiles = 5;
     public Transform playerTransform;
     private List<GameObject> activeTiles = new  List<GameObject>();
+    public GameObject first;
+    public GameObject customPrefab;
+
 
     void Start()
     {
+
+        first = Instantiate(customPrefab, transform.forward * zSpawn, transform.rotation);
+        zSpawn += tileLength;
+
         for (int i = 0; i < numberOfTiles; i++)
         {
             if(i == 0)
