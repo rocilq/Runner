@@ -203,6 +203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneObstakle.003
       objectReference: {fileID: 0}
+    - target: {fileID: 9197675024479678684, guid: ea2cbf12c06c1f84fba7738637afe712,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea2cbf12c06c1f84fba7738637afe712, type: 3}
 --- !u!4 &1844081531918067479 stripped

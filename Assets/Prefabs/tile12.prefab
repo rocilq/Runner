@@ -199,6 +199,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneObstakle.007
       objectReference: {fileID: 0}
+    - target: {fileID: 6207321462577572872, guid: 9dd2ba2e3fab01e489cdbf4ad2e4aeb5,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dd2ba2e3fab01e489cdbf4ad2e4aeb5, type: 3}
 --- !u!4 &7303078542232435218 stripped
@@ -273,6 +278,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoneObstakle.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534920441771401078, guid: 30165abc6b492a44fb254116c96b57d5,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30165abc6b492a44fb254116c96b57d5, type: 3}

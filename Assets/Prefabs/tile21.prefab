@@ -199,6 +199,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mooved_Blades_2
       objectReference: {fileID: 0}
+    - target: {fileID: 3332684574883117302, guid: e451de0b12e78d642be6cafc92600404,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e451de0b12e78d642be6cafc92600404, type: 3}
 --- !u!4 &3966577074516535109 stripped
@@ -273,6 +278,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mooved_Blades_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888033239262491184, guid: e9ed788b4f328a943b0b6d6a47cef6e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ed788b4f328a943b0b6d6a47cef6e4, type: 3}

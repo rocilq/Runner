@@ -205,6 +205,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneObstakle.004 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8009147139926842830, guid: f35223294c5340945bf54b080792b05b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f35223294c5340945bf54b080792b05b, type: 3}
 --- !u!4 &5757195188050902202 stripped
@@ -285,6 +290,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneObstakle.004
       objectReference: {fileID: 0}
+    - target: {fileID: 8009147139926842830, guid: f35223294c5340945bf54b080792b05b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f35223294c5340945bf54b080792b05b, type: 3}
 --- !u!4 &4715722017727413542 stripped
@@ -364,6 +374,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoneObstakle.004 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8009147139926842830, guid: f35223294c5340945bf54b080792b05b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f35223294c5340945bf54b080792b05b, type: 3}

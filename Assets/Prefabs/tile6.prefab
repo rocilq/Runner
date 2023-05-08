@@ -143,6 +143,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneObstakle.002
       objectReference: {fileID: 0}
+    - target: {fileID: 339816025112534004, guid: 0c80b44761fb30941bab35a7f4cbcad7,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 5312839558311766199, guid: 0c80b44761fb30941bab35a7f4cbcad7,
         type: 3}
       propertyPath: m_RootOrder

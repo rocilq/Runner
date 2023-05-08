@@ -140,6 +140,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3289895634508731675}
     m_Modifications:
+    - target: {fileID: 192326546840377248, guid: 73f15fa1aa265944e9ed19493971f1f7,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 4504209308464367016, guid: 73f15fa1aa265944e9ed19493971f1f7,
         type: 3}
       propertyPath: m_RootOrder
@@ -280,6 +285,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneObstakle
       objectReference: {fileID: 0}
+    - target: {fileID: 2458700657426069103, guid: 0ab46fc005eb9114595b3f0a5bf01a1e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab46fc005eb9114595b3f0a5bf01a1e, type: 3}
 --- !u!4 &8443743207786041001 stripped
@@ -295,6 +305,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3289895634508731675}
     m_Modifications:
+    - target: {fileID: 192326546840377248, guid: 73f15fa1aa265944e9ed19493971f1f7,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 4504209308464367016, guid: 73f15fa1aa265944e9ed19493971f1f7,
         type: 3}
       propertyPath: m_RootOrder
