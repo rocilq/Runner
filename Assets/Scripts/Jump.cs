@@ -16,18 +16,13 @@ public class Jump : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
+
+        if (SwipeManager.swipeUp) { 
+           
             GetComponent<Rigidbody>().AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             animator.SetTrigger("jumpTrigger");
+
         }
     }
 
-    /*void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
-        {
-            animator.SetBool("isJumping", false);
-        }
-    }*/
 }

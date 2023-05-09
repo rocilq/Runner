@@ -23,24 +23,26 @@ public class PlayerMovement : MonoBehaviour
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
         // Move to the left lane if "left" arrow key is pressed
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && currentLane > -maxLane)
+        if ((Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A)) && currentLane > -maxLane)
         {
             currentLane--;
             transform.position = new Vector3(currentLane * laneDistance, transform.position.y, transform.position.z);
         }
 
+        // Move to the right lane if "right" arrow key is pressed
+        if ((Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D)) && currentLane < maxLane)
+        {
+            currentLane++;
+            transform.position = new Vector3(currentLane * laneDistance, transform.position.y, transform.position.z);
+        
+        }
+    
         // Slide
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             animator.SetTrigger("slideTrigger");
         }
 
-        // Move to the right lane if "right" arrow key is pressed
-        if (Input.GetKeyDown(KeyCode.RightArrow) && currentLane < maxLane)
-        {
-            currentLane++;
-            transform.position = new Vector3(currentLane * laneDistance, transform.position.y, transform.position.z);
-        }
-    }
+    }   
 }
 
