@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 5302229088771764976}
   m_Layer: 0
   m_Name: Saw
-  m_TagString: Untagged
+  m_TagString: obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 1541784224161791431}
   m_Layer: 0
   m_Name: Saw_Static_5_0 (1)
-  m_TagString: Untagged
+  m_TagString: obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 3538175504435653138}
   m_Layer: 0
   m_Name: Saw
-  m_TagString: Untagged
+  m_TagString: obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -419,7 +419,7 @@ GameObject:
   - component: {fileID: 882465471045782081}
   m_Layer: 0
   m_Name: Saw_Static_5_0
-  m_TagString: Untagged
+  m_TagString: obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -501,8 +501,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5000001, y: 0.15000008, z: 0.20000054}
-  m_Center: {x: 0, y: -0.024999999, z: -0.000000037252903}
+  m_Size: {x: 1.5000001, y: 0.74913824, z: 0.20000054}
+  m_Center: {x: 0, y: 0.274569, z: -0.000000037252903}
 --- !u!1 &9184036561376041299
 GameObject:
   m_ObjectHideFlags: 0

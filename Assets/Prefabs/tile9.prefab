@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 5494891456801802333}
   m_Layer: 0
   m_Name: tile9
-  m_TagString: Untagged
+  m_TagString: obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,6 +143,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Saw_Static_5_0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 928680227052304966, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 2094552678270621885, guid: e7714841764acc44fb273af116016383,
         type: 3}
@@ -209,6 +214,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7314860146158530282, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 8634773249597480295, guid: e7714841764acc44fb273af116016383,
         type: 3}
       propertyPath: m_TagString
@@ -233,6 +243,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Saw_Static_5_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 928680227052304966, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 2094552678270621885, guid: e7714841764acc44fb273af116016383,
         type: 3}
@@ -288,6 +303,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7314860146158530282, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 8634773249597480295, guid: e7714841764acc44fb273af116016383,
         type: 3}
