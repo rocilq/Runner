@@ -3,16 +3,13 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private CharacterController controller;
-    private Vector3 move;
+    private Rigidbody rb;
     public float forwardSpeed;
     public float maxSpeed;
 
-    private int desiredLane = 1;//0:left, 1:middle, 2:right
-    public float laneDistance = 2.5f;//The distance between tow lanes
-    public float sidewaysSpeed = 5.0f;//The speed of moving to the sides
-
-    private Vector3 velocity;
+    private int desiredLane = 1; // 0:left, 1:middle, 2:right
+    public float laneDistance = 2.5f; // The distance between two lanes
+    public float movementSpeed = 5.0f; // The speed of moving to the sides
 
     public Animator animator;
 
@@ -20,14 +17,13 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        controller = GetComponent<CharacterController>();
+        rb = GetComponent<Rigidbody>();
         Time.timeScale = 1.2f;
     }
 
     private void FixedUpdate()
     {
-
-        //Increase Speed
+        // Increase Speed
         if (toggle)
         {
             toggle = false;
@@ -44,13 +40,10 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (rb.velocity.y < 0)
+            rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0f);
 
-        move.z = forwardSpeed;
-
-        if (velocity.y < 0)
-            velocity.y = -1f;
-
-        //Gather the inputs on which lane we should be
+        // Gather the inputs on which lane we should be
         if (SwipeManager.swipeRight)
         {
             desiredLane++;
@@ -64,22 +57,24 @@ public class PlayerController : MonoBehaviour
                 desiredLane = 0;
         }
 
-
-        //Slide
+        // Slide
         if (SwipeManager.swipeDown)
             animator.SetTrigger("slideTrigger");
 
-
-        //Calculate where we should be in the future
+        // Calculate where we should be in the future
         Vector3 targetPosition = transform.position.z * transform.forward + transform.position.y * transform.up;
         if (desiredLane == 0)
             targetPosition += Vector3.left * laneDistance;
         else if (desiredLane == 2)
             targetPosition += Vector3.right * laneDistance;
 
-        //Calculate the position the player should be in
+        // Calculate the position the player should be in
         Vector3 newPosition = new Vector3(targetPosition.x, transform.position.y, targetPosition.z);
-        //Move the player to the new position using Lerp
-        transform.position = Vector3.Lerp(transform.position, newPosition, sidewaysSpeed * Time.deltaTime);
+
+        // Move the player using Lerp for smooth movement
+        transform.position = Vector3.Lerp(transform.position, newPosition, movementSpeed * Time.deltaTime);
+
+        // Update the forward speed
+        rb.velocity = new Vector3(0f, rb.velocity.y, forwardSpeed);
     }
 }
