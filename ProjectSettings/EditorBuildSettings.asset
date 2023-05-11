@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3098717ae1c103745909333bf31a21cd
+  - enabled: 1
+    path: Assets/Scenes/nivelFacil.unity
+    guid: ae23f7d6ce1d64e4ba136bac4adba336
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 73b3b6e966199114faf34383e1f8e04d,
       type: 2}
