@@ -474,7 +474,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 952326144}
         m_TargetAssemblyTypeName: Pause, Assembly-CSharp
         m_MethodName: ButtonPause
         m_Mode: 1
@@ -1588,7 +1588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pausePanel: {fileID: 1398234222}
-  returnButton: {fileID: 0}
+  returnButton: {fileID: 1722251}
 --- !u!4 &1398234224
 Transform:
   m_ObjectHideFlags: 0

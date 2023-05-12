@@ -321,6 +321,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6595047554417597660, guid: 96b6f36b228635d45b58e402d4bb4cc4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96b6f36b228635d45b58e402d4bb4cc4, type: 3}
 --- !u!4 &8765570102750316222 stripped
@@ -515,6 +520,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6595047554417597660, guid: 96b6f36b228635d45b58e402d4bb4cc4,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96b6f36b228635d45b58e402d4bb4cc4, type: 3}
