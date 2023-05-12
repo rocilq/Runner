@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6301587779630983285}
   - component: {fileID: 6739015354645835949}
   - component: {fileID: 4016564372908886263}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Path_Straight.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7865435182804764406}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tile14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144,6 +144,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Saw_Static_5_0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 928680227052304966, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 928680227052304966, guid: e7714841764acc44fb273af116016383,
         type: 3}
@@ -205,6 +210,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7314860146158530282, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634773249597480295, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8634773249597480295, guid: e7714841764acc44fb273af116016383,
         type: 3}
       propertyPath: m_TagString
@@ -261,6 +276,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Saw_Static_5_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 928680227052304966, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 928680227052304966, guid: e7714841764acc44fb273af116016383,
         type: 3}
@@ -322,6 +342,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7314860146158530282, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634773249597480295, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8634773249597480295, guid: e7714841764acc44fb273af116016383,
         type: 3}
       propertyPath: m_TagString
@@ -378,6 +408,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Saw_Static_5_0 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 928680227052304966, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 928680227052304966, guid: e7714841764acc44fb273af116016383,
         type: 3}
@@ -438,6 +473,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7314860146158530282, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634773249597480295, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8634773249597480295, guid: e7714841764acc44fb273af116016383,
         type: 3}

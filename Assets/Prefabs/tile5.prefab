@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6476303919781862078}
   - component: {fileID: 2739330057594762688}
   - component: {fileID: 7426394030800757328}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Path_Straight.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 226250730079002580}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,6 +197,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoneObstakle.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207321462577572872, guid: 9dd2ba2e3fab01e489cdbf4ad2e4aeb5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6207321462577572872, guid: 9dd2ba2e3fab01e489cdbf4ad2e4aeb5,
         type: 3}
