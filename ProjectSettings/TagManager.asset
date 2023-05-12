@@ -9,6 +9,7 @@ TagManager:
   - player
   - obstacle
   - Coin
+  - PlayerCollider
   layers:
   - Default
   - TransparentFX
