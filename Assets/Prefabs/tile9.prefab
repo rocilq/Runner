@@ -232,6 +232,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2529844789427012551}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5086898116789759277 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7314860146158530282, guid: e7714841764acc44fb273af116016383,
+    type: 3}
+  m_PrefabInstance: {fileID: 2529844789427012551}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &2501172509909963960
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5086898116789759277}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.043810368, y: 0.059465885}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2198057, y: 1.1189318}
+  m_EdgeRadius: 0
 --- !u!1001 &8510719300075367883
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -316,6 +348,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7714841764acc44fb273af116016383, type: 3}
+--- !u!1 &1414056136985625377 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7314860146158530282, guid: e7714841764acc44fb273af116016383,
+    type: 3}
+  m_PrefabInstance: {fileID: 8510719300075367883}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &8750866182853894505
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414056136985625377}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!4 &7713960879328621942 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2094552678270621885, guid: e7714841764acc44fb273af116016383,

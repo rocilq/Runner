@@ -176,8 +176,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5000001, y: 0.15000008, z: 0.20000054}
-  m_Center: {x: 0, y: -0.024999999, z: -0.000000037252903}
+  m_Size: {x: 1.2925646, y: 0.7326595, z: 0.20000054}
+  m_Center: {x: 0.007013679, y: 0.26632965, z: -0.000000037252903}
 --- !u!1 &3696590774158653522
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,6 +189,7 @@ GameObject:
   - component: {fileID: 2750251257260196021}
   - component: {fileID: 2622724647583961629}
   - component: {fileID: 2480075991151122025}
+  - component: {fileID: 5030533905386898136}
   m_Layer: 0
   m_Name: Saw.004
   m_TagString: obstacle
@@ -261,6 +262,32 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!61 &5030533905386898136
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3696590774158653522}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.018439293, y: -0.16656494}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.3171597, y: 1.5987217}
+  m_EdgeRadius: 0
 --- !u!1 &4717736260946419383
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,6 +541,7 @@ GameObject:
   - component: {fileID: 900788148936582452}
   - component: {fileID: 6778688454895544812}
   - component: {fileID: 1795253023078254000}
+  - component: {fileID: 8941429663176497912}
   m_Layer: 0
   m_Name: Saw.004
   m_TagString: obstacle
@@ -586,3 +614,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!61 &8941429663176497912
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9184036561376041299}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.026719332, y: -0.19049045}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.3086894, y: 1.5508707}
+  m_EdgeRadius: 0

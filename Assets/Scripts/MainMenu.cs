@@ -11,6 +11,12 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Difficulty");
     }
 
+    public void Options()
+    {
+        SceneManagerHelper.SetPreviousScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("Options");
+    }
+
     //Quit game
     public void Quit()
     {

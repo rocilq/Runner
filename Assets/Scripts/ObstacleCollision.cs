@@ -10,11 +10,10 @@ public class ObstacleCollision : MonoBehaviour
 
     private void Start()
     {
-        // Desactivar el panel de Game Over al inicio
-        gameOverPanel.SetActive(false);
 
         // Agregar un listener al botón de retry
         retryButton.onClick.AddListener(Retry);
+
     }
 
     void OnCollisionEnter(Collision collision)
@@ -46,5 +45,12 @@ public class ObstacleCollision : MonoBehaviour
 
         // Reanudar el juego
         Time.timeScale = 1;
+    }
+
+    public void GoToMenu()
+    {
+        // Recargar la escena actual
+        SceneManager.LoadScene("MainMenu");
+
     }
 }
