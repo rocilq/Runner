@@ -2219,7 +2219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0440a3ababfc1941a75098b5adf8a9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 5
+  jumpForce: 6
   animator: {fileID: 765933805}
   groundLayer:
     serializedVersion: 2
