@@ -8,7 +8,6 @@ TagManager:
   - New tag
   - player
   - obstacle
-  - Coin
   layers:
   - Default
   - TransparentFX
