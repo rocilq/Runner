@@ -16,4 +16,8 @@ public class Difficulty : MonoBehaviour
     {
         SceneManager.LoadScene("nivelDificil");
     }
+    public void Back()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }
