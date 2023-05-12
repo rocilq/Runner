@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735759064725221697}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -190,7 +190,7 @@ PrefabInstance:
     - target: {fileID: 5555448128836588323, guid: 5d991e11033ba3143a586813843ae48f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 5555448128836588323, guid: 5d991e11033ba3143a586813843ae48f,
         type: 3}
@@ -290,7 +290,7 @@ PrefabInstance:
     - target: {fileID: 5555448128836588323, guid: 5d991e11033ba3143a586813843ae48f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9
+      value: 5.3
       objectReference: {fileID: 0}
     - target: {fileID: 5555448128836588323, guid: 5d991e11033ba3143a586813843ae48f,
         type: 3}
@@ -360,7 +360,7 @@ PrefabInstance:
     - target: {fileID: 39553368784082628, guid: 3fbb2053700dc02409fec9118cfbc128,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3
+      value: -0.70000005
       objectReference: {fileID: 0}
     - target: {fileID: 39553368784082628, guid: 3fbb2053700dc02409fec9118cfbc128,
         type: 3}
@@ -460,7 +460,7 @@ PrefabInstance:
     - target: {fileID: 39553368784082628, guid: 3fbb2053700dc02409fec9118cfbc128,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9
+      value: 5.3
       objectReference: {fileID: 0}
     - target: {fileID: 39553368784082628, guid: 3fbb2053700dc02409fec9118cfbc128,
         type: 3}
@@ -590,7 +590,7 @@ PrefabInstance:
     - target: {fileID: 5555448128836588323, guid: 5d991e11033ba3143a586813843ae48f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3
+      value: -0.7
       objectReference: {fileID: 0}
     - target: {fileID: 5555448128836588323, guid: 5d991e11033ba3143a586813843ae48f,
         type: 3}
