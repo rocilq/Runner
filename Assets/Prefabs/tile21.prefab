@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8171599080120720427}
   - component: {fileID: 8903946737065428211}
   - component: {fileID: 1272639249016994985}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Path_Straight.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5418750657969124008}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tile21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,10 +199,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mooved_Blades_2
       objectReference: {fileID: 0}
+    - target: {fileID: 932060005915906477, guid: e451de0b12e78d642be6cafc92600404,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3288469838992558279, guid: e451de0b12e78d642be6cafc92600404,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3332684574883117302, guid: e451de0b12e78d642be6cafc92600404,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3332684574883117302, guid: e451de0b12e78d642be6cafc92600404,
         type: 3}
       propertyPath: m_TagString
       value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227577571728657823, guid: e451de0b12e78d642be6cafc92600404,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8880084616680656998, guid: e451de0b12e78d642be6cafc92600404,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122158703665855184, guid: e451de0b12e78d642be6cafc92600404,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e451de0b12e78d642be6cafc92600404, type: 3}
@@ -219,6 +249,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5418750657969124008}
     m_Modifications:
+    - target: {fileID: 1550827749968792149, guid: e9ed788b4f328a943b0b6d6a47cef6e4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3803307310516720446, guid: e9ed788b4f328a943b0b6d6a47cef6e4,
         type: 3}
       propertyPath: m_RootOrder
@@ -279,10 +314,35 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mooved_Blades_4
       objectReference: {fileID: 0}
+    - target: {fileID: 3803307310516720447, guid: e9ed788b4f328a943b0b6d6a47cef6e4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888033239262491184, guid: e9ed788b4f328a943b0b6d6a47cef6e4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3888033239262491184, guid: e9ed788b4f328a943b0b6d6a47cef6e4,
         type: 3}
       propertyPath: m_TagString
       value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5097849895771191362, guid: e9ed788b4f328a943b0b6d6a47cef6e4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7996209934364882622, guid: e9ed788b4f328a943b0b6d6a47cef6e4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8181308770016193351, guid: e9ed788b4f328a943b0b6d6a47cef6e4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ed788b4f328a943b0b6d6a47cef6e4, type: 3}

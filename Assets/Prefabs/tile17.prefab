@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6393839869835500558}
   - component: {fileID: 5930410629642831062}
   - component: {fileID: 4068285152724778124}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Path_Straight.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7129027161703232141}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tile17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,6 +195,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2392322343824978659, guid: 7b989d00c7a85ed4c8f8254369b90631,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392322345031511676, guid: 7b989d00c7a85ed4c8f8254369b90631,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3607267632334979445, guid: 7b989d00c7a85ed4c8f8254369b90631,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3607267632334979445, guid: 7b989d00c7a85ed4c8f8254369b90631,
         type: 3}
       propertyPath: m_TagString
@@ -204,6 +219,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spikes_0_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4400000909181042513, guid: 7b989d00c7a85ed4c8f8254369b90631,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b989d00c7a85ed4c8f8254369b90631, type: 3}
@@ -275,6 +295,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2392322343824978659, guid: 7b989d00c7a85ed4c8f8254369b90631,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392322345031511676, guid: 7b989d00c7a85ed4c8f8254369b90631,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3607267632334979445, guid: 7b989d00c7a85ed4c8f8254369b90631,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3607267632334979445, guid: 7b989d00c7a85ed4c8f8254369b90631,
         type: 3}
       propertyPath: m_TagString
@@ -284,6 +319,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spikes_0_0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4400000909181042513, guid: 7b989d00c7a85ed4c8f8254369b90631,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b989d00c7a85ed4c8f8254369b90631, type: 3}
@@ -360,10 +400,25 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2392322343824978659, guid: 7b989d00c7a85ed4c8f8254369b90631,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2392322345031511674, guid: 7b989d00c7a85ed4c8f8254369b90631,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392322345031511676, guid: 7b989d00c7a85ed4c8f8254369b90631,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3607267632334979445, guid: 7b989d00c7a85ed4c8f8254369b90631,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3607267632334979445, guid: 7b989d00c7a85ed4c8f8254369b90631,
         type: 3}
@@ -374,6 +429,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spikes_0_0 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4400000909181042513, guid: 7b989d00c7a85ed4c8f8254369b90631,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b989d00c7a85ed4c8f8254369b90631, type: 3}

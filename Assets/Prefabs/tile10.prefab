@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2064530590130249523}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tile10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 795636350765060155}
   - component: {fileID: 7397999622318612032}
   - component: {fileID: 3033203671006970082}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Saw_Static_5_0
   m_TagString: obstacle
   m_Icon: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4861870647092532302}
   - component: {fileID: 4861870647092532301}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Saw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -189,7 +189,7 @@ GameObject:
   - component: {fileID: 3165720782020074205}
   - component: {fileID: 2784492308821641852}
   - component: {fileID: 6042416710080909213}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Saw.004
   m_TagString: obstacle
   m_Icon: {fileID: 0}
@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 2806499791449420208}
   - component: {fileID: 3171878567722445160}
   - component: {fileID: 5061122417819996466}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Path_Straight.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,6 +440,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoneObstakle.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8009147139926842830, guid: f35223294c5340945bf54b080792b05b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8009147139926842830, guid: f35223294c5340945bf54b080792b05b,
         type: 3}

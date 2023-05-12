@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3289895634508731675}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tile20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 1728275825488870296}
   - component: {fileID: 2092599070599226176}
   - component: {fileID: 8588954936288025370}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Path_Straight.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,8 +142,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 192326546840377248, guid: 73f15fa1aa265944e9ed19493971f1f7,
         type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 192326546840377248, guid: 73f15fa1aa265944e9ed19493971f1f7,
+        type: 3}
       propertyPath: m_TagString
       value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2292192324711439555, guid: 73f15fa1aa265944e9ed19493971f1f7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2336800899752501460, guid: 73f15fa1aa265944e9ed19493971f1f7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4504209308464367016, guid: 73f15fa1aa265944e9ed19493971f1f7,
         type: 3}
@@ -204,6 +219,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mooved_Blades_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4504209308464367017, guid: 73f15fa1aa265944e9ed19493971f1f7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4547538734116076845, guid: 73f15fa1aa265944e9ed19493971f1f7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545362847506902740, guid: 73f15fa1aa265944e9ed19493971f1f7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73f15fa1aa265944e9ed19493971f1f7, type: 3}
@@ -287,6 +317,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2458700657426069103, guid: 0ab46fc005eb9114595b3f0a5bf01a1e,
         type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458700657426069103, guid: 0ab46fc005eb9114595b3f0a5bf01a1e,
+        type: 3}
       propertyPath: m_TagString
       value: obstacle
       objectReference: {fileID: 0}
@@ -307,8 +342,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 192326546840377248, guid: 73f15fa1aa265944e9ed19493971f1f7,
         type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 192326546840377248, guid: 73f15fa1aa265944e9ed19493971f1f7,
+        type: 3}
       propertyPath: m_TagString
       value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2292192324711439555, guid: 73f15fa1aa265944e9ed19493971f1f7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2336800899752501460, guid: 73f15fa1aa265944e9ed19493971f1f7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4504209308464367016, guid: 73f15fa1aa265944e9ed19493971f1f7,
         type: 3}
@@ -369,6 +419,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mooved_Blades_1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4504209308464367017, guid: 73f15fa1aa265944e9ed19493971f1f7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4547538734116076845, guid: 73f15fa1aa265944e9ed19493971f1f7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545362847506902740, guid: 73f15fa1aa265944e9ed19493971f1f7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73f15fa1aa265944e9ed19493971f1f7, type: 3}

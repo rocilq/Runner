@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4680395425176582469}
   - component: {fileID: 1188096114709252551}
   - component: {fileID: 2988149756434733559}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4837,7 +4837,7 @@ GameObject:
   - component: {fileID: 2855741904723643482}
   - component: {fileID: 4744556389909645375}
   - component: {fileID: 2621862282846776518}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Path_Straight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4935,7 +4935,7 @@ GameObject:
   - component: {fileID: 6987152655258763698}
   - component: {fileID: 9072205430802349718}
   - component: {fileID: 1396538770215554007}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlayerPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5031,7 +5031,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5621886481823886357}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tileStart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5068,7 +5068,7 @@ GameObject:
   - component: {fileID: 1442248146592598545}
   - component: {fileID: 6849693325036498408}
   - component: {fileID: 3622893851465065122}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Path_Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1652,6 +1652,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpForce: 5
   animator: {fileID: 5866666021159878510}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  groundCheck: {fileID: 2081286974}
+  groundDistance: 0.2
 --- !u!54 &1098091697
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3689,6 +3694,37 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.064907424
   m_Center: {x: 0.0038181185, y: 0.020105006, z: -0.017574197}
+--- !u!1 &2081286973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2081286974}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2081286974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081286973}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 543450652822168852}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &2083081378
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3890,6 +3926,7 @@ Transform:
   m_Children:
   - {fileID: 7992580013288662885}
   - {fileID: 5465940247263380864}
+  - {fileID: 2081286974}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

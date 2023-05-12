@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4160583993807104066}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tile7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 7169419258044427560}
   - component: {fileID: 2061134473528345174}
   - component: {fileID: 6742252341790086598}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Path_Straight.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -143,6 +143,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Saw_Big_1_0
       objectReference: {fileID: 0}
+    - target: {fileID: 130286981149475247, guid: cd38820c28fb6e048a80126756223bbb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 382444674826122768, guid: cd38820c28fb6e048a80126756223bbb,
         type: 3}
       propertyPath: m_RootOrder
@@ -200,8 +205,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1300348647223210278, guid: cd38820c28fb6e048a80126756223bbb,
         type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300348647223210278, guid: cd38820c28fb6e048a80126756223bbb,
+        type: 3}
       propertyPath: m_TagString
       value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5977483655441068984, guid: cd38820c28fb6e048a80126756223bbb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd38820c28fb6e048a80126756223bbb, type: 3}

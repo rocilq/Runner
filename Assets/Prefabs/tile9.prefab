@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8508946456578156254}
   - component: {fileID: 8999229754303413766}
   - component: {fileID: 1647139949751387740}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Path_Straight.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5494891456801802333}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tile9
   m_TagString: obstacle
   m_Icon: {fileID: 0}
@@ -143,6 +143,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Saw_Static_5_0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 928680227052304966, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 928680227052304966, guid: e7714841764acc44fb273af116016383,
         type: 3}
@@ -216,8 +221,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314860146158530282, guid: e7714841764acc44fb273af116016383,
         type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7314860146158530282, guid: e7714841764acc44fb273af116016383,
+        type: 3}
       propertyPath: m_TagString
       value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634773249597480295, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8634773249597480295, guid: e7714841764acc44fb273af116016383,
         type: 3}
@@ -275,6 +290,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Saw_Static_5_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 928680227052304966, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 928680227052304966, guid: e7714841764acc44fb273af116016383,
         type: 3}
@@ -338,8 +358,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314860146158530282, guid: e7714841764acc44fb273af116016383,
         type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7314860146158530282, guid: e7714841764acc44fb273af116016383,
+        type: 3}
       propertyPath: m_TagString
       value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634773249597480295, guid: e7714841764acc44fb273af116016383,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8634773249597480295, guid: e7714841764acc44fb273af116016383,
         type: 3}

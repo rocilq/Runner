@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7214245925300940650}
   - component: {fileID: 7991725508751964082}
   - component: {fileID: 346828593856155624}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Path_Straight.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6794306075491811817}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tile19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,6 +196,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3735755517030966772, guid: 3fbb2053700dc02409fec9118cfbc128,
         type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735755517030966772, guid: 3fbb2053700dc02409fec9118cfbc128,
+        type: 3}
       propertyPath: m_TagString
       value: obstacle
       objectReference: {fileID: 0}
@@ -203,6 +208,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blades_0_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831929992503833206, guid: 3fbb2053700dc02409fec9118cfbc128,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466958595406026687, guid: 3fbb2053700dc02409fec9118cfbc128,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713921213751560774, guid: 3fbb2053700dc02409fec9118cfbc128,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fbb2053700dc02409fec9118cfbc128, type: 3}
@@ -276,6 +296,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3735755517030966772, guid: 3fbb2053700dc02409fec9118cfbc128,
         type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735755517030966772, guid: 3fbb2053700dc02409fec9118cfbc128,
+        type: 3}
       propertyPath: m_TagString
       value: obstacle
       objectReference: {fileID: 0}
@@ -283,6 +308,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blades_0_0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831929992503833206, guid: 3fbb2053700dc02409fec9118cfbc128,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466958595406026687, guid: 3fbb2053700dc02409fec9118cfbc128,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713921213751560774, guid: 3fbb2053700dc02409fec9118cfbc128,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fbb2053700dc02409fec9118cfbc128, type: 3}

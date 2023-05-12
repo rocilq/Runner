@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1432664376778369877}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tile1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,6 +43,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Path_Straight.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594062721491630695, guid: ab673cf883d054a4c935f4e390817763,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4917395686716899200, guid: ab673cf883d054a4c935f4e390817763,
         type: 3}
